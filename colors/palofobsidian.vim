@@ -1,13 +1,21 @@
-" Port of http://studiostyles.info/schemes/son-of-obsidian
-" to vim
-" Last Change: 2010 sep 28
+" Pal of Obsidian: psmay's nuances on Son of Obsidian
+"
+" Based on sonofobsidian.vim 1.0
+" by Vincent B:
+" http://www.vim.org/scripts/script.php?script_id=3260
+"
+" In turn based on Son of Obsidian for Visual Studio
+" by einaros (Einar Otto Stangvik):
+" http://studiostyl.es/schemes/son-of-obsidian
+"
+" Last Change: 2014 mar 31
 " Version: 1.0
 set background=dark
 hi clear
 if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name="sonofobsidian"
+let g:colors_name="palofobsidian"
 
 
 hi Comment          guifg=#99AA8A
@@ -35,7 +43,7 @@ hi xmlCdata         guifg=#99A38A
 hi xmlAttrib        guifg=#678CB1
 hi htmlTagName      guifg=#93C763
 hi htmlArg          guifg=#678CB1
-hi ErrorMsg         guifg=#FF0000
+hi ErrorMsg         guifg=#FFFFFF guibg=#FF0000
 hi WarningMsg       guifg=#FFCD22
 hi Folded           guifg=#808080 guibg=#1C2325
 hi PMenu            guifg=#CCCCFF guibg=#1C2325
