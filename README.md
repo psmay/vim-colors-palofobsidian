@@ -9,14 +9,20 @@ Stangvik)](http://studiostyl.es/schemes/son-of-obsidian).
 Features of note
 ----------------
 
-This scheme differs from sonofobsidian in (currently) only two important
-ways:
+This scheme differs from sonofobsidian in (currently) only three
+important ways:
 
 *   It is available on Github in a bundle-friendly form for easy use by
     [pathogen](https://github.com/tpope/vim-pathogen).
 *   The `ErrorMsg` colors are changed from red-on-undefined to
     white-on-red. (On systems I use, the default `ErrorMsg` background
     happens to be red, making error messages impossible to read.)
+*   It has been run through a conversion script to provide support for
+    256-color terminals, which is handy in (the few) places where
+    gvim-dependent color scheme degrade scripts don't work. If you don't
+    have 256-color vim in your terminal, information is available
+    regarding [how to set it
+    up](http://vim.wikia.com/wiki/256_colors_in_vim).
 
 Installation
 ------------
